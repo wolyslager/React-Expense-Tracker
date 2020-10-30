@@ -1,0 +1,12 @@
+.inputs-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+button{
+	height: 3rem;
+	margin-top: 40px;
+}
+
