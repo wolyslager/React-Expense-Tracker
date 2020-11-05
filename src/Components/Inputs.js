@@ -13,6 +13,9 @@ function Inputs (props){
 		document.getElementById('form').reset();
 		props.addExpense(amount, date, merchant, description)
 	}
+let clearStorage = () => {
+	localStorage.clear()
+}
 	return(
 		<div>
 			<Form id = 'form' onSubmit ={expenseAdded}>
@@ -38,6 +41,7 @@ function Inputs (props){
 					</div>
 					<div className="">
 						<Button id = "submit" type = "submit">Submit</Button>
+						<Button onClick ={clearStorage} className = "btn btn-warning " id = "submit" type = "submit">Clear Table</Button>
 					</div>
 				</div>
 			</Form>

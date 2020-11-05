@@ -5,7 +5,6 @@ import Button from 'react-bootstrap/Button'
 function Row(props){
 	function handleDelete(){
 		props.removeExpense(props.index)
-		console.log('yep')
 	}
 	return(
 		<tr>
