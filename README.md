@@ -2,7 +2,7 @@
 
 Expense Tracker application built using React.js
 
-Try it [here!](https://wolyslager.github.io/calculator-app/)
+Try it [here!](https://arcane-chamber-68589.herokuapp.com/)
 
 ![](screenshot.png?raw=true)
 
