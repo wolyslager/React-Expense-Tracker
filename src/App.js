@@ -30,6 +30,7 @@ class App extends React.Component{
 		this.setState(prevState => {
 			let expenses = [...prevState.expenses]
 			expenses.splice(key, 1)
+			localStorage.setItem('expensesArray', JSON.stringify(expenses))
 			return{
 				expenses: expenses
 			}
