@@ -22,7 +22,7 @@ let clearStorage = () => {
 				<div className="inputs-container">
 					<div className="form-group">
 						<label>Amount</label>
-						<input className = "form-control" id = "number" type = "number" required />
+						<input className = "form-control" id = "number" step = "0.1"type = "number" required />
 					</div>
 					
 					<div className="form-group">
@@ -41,7 +41,7 @@ let clearStorage = () => {
 					</div>
 					<div className="">
 						<Button id = "submit" type = "submit">Submit</Button>
-						<Button onClick ={clearStorage} className = "btn btn-warning " id = "submit" type = "submit">Clear Table</Button>
+						<Button onClick ={clearStorage} className = "btn btn-warning " id = "submit">Clear Memory</Button>
 					</div>
 				</div>
 			</Form>
