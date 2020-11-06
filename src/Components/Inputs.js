@@ -41,7 +41,7 @@ let clearStorage = () => {
 					</div>
 					<div className="">
 						<Button id = "submit" type = "submit">Submit</Button>
-						<Button onClick ={clearStorage} className = "btn btn-warning " id = "submit">Clear Memory</Button>
+						<Button onClick ={clearStorage} className = "btn btn-warning " id = "submit"gg>Clear Memory</Button>
 					</div>
 				</div>
 			</Form>
